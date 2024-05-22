@@ -32,12 +32,11 @@ gunicorn==20.1.0
  - Flask-CORS for handling Cross-Origin Resource Sharing (CORS)
 Flask-CORS==3.0.10
 
- -  TensorFlow or PyTorch for the AI model (choose one based on your implementation)
+ -  TensorFlow and PyTorch for the AI model 
 tensorflow==2.9.1
- - or
 torch==1.12.0
 torchvision==0.13.0
-
+ - !pip install roboflow
  -  YOLOv8 dependencies (if not included in the above frameworks)
  -  For PyTorch-based YOLO implementation
 opencv-python==4.5.5.64
