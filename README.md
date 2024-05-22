@@ -37,7 +37,7 @@ tensorflow==2.9.1
 torch==1.12.0
 torchvision==0.13.0
  - !pip install roboflow
- -  YOLOv8 dependencies (if not included in the above frameworks)
+ -  YOLOv8 dependencies 
  -  For PyTorch-based YOLO implementation
 opencv-python==4.5.5.64
  -  If YOLOv8 requires additional specific dependencies, add them here
@@ -54,7 +54,7 @@ scikit-learn==1.0.2
  - Pillow for image processing
 Pillow==9.1.1
 
- -  Requests for making HTTP requests (if needed for external API calls)
+ -  Requests for making HTTP requests 
 requests==2.27.1
 
  -  Additional utilities
