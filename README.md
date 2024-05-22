@@ -23,6 +23,46 @@ git clone https://github.com/revech/snapai.git
 cd snapai
 pip install -r requirements.txt
 
+ - Flask for the web application
+Flask==2.1.1
+
+ - Gunicorn for running the Flask application in a production environment
+gunicorn==20.1.0
+
+ - Flask-CORS for handling Cross-Origin Resource Sharing (CORS)
+Flask-CORS==3.0.10
+
+ -  TensorFlow or PyTorch for the AI model (choose one based on your implementation)
+tensorflow==2.9.1
+ - or
+torch==1.12.0
+torchvision==0.13.0
+
+ -  YOLOv8 dependencies (if not included in the above frameworks)
+ -  For PyTorch-based YOLO implementation
+opencv-python==4.5.5.64
+ -  If YOLOv8 requires additional specific dependencies, add them here
+
+ -  NumPy for numerical operations
+numpy==1.21.6
+
+ -  Pandas for data handling
+pandas==1.3.5
+
+ -  Scikit-learn for additional machine learning utilities
+scikit-learn==1.0.2
+
+ - Pillow for image processing
+Pillow==9.1.1
+
+ -  Requests for making HTTP requests (if needed for external API calls)
+requests==2.27.1
+
+ -  Additional utilities
+matplotlib==3.5.2
+seaborn==0.11.2
+
+
 # Run the Application:
 
 flask run
